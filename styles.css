@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Work Sans', sans-serif;
+  font-color: green;
+  background-color: antiquewhite;
+  font-size: 120%;
+  line-height: 1, 4;
+}
+input,
+button,
+textarea {
+  font-size: inherit;
+}
