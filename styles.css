@@ -153,18 +153,18 @@ nav {
 
 dt {
   font-weight: bold;
+  width: 300px;
+  height: auto;
 }
 
-dl.grid {
-  display: flex;
-  flex-wrap: wrap;
+dd {
+  width: 300px;
+  height: auto;
 }
 
-.grid dt {
-  width: 120px;
-}
-.grid dd {
-  width: calc(100% - 120px);
+.dl {
+  width: 300px;
+  height: auto;
 }
 
 .bio {
