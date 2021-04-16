@@ -20,11 +20,11 @@ body {
   font-family: 'Work Sans', sans-serif;
   color: var(--quarternary);
   font-size: 15px;
-  margin: 0;
+  margin: 0 10%;
 }
 
 header {
-  height: 100px;
+  height: 80px;
   width: 100%;
   display: flex;
   gap: 15px;
@@ -86,11 +86,7 @@ h1 {
 h2 {
   font-weight: bolder;
   font-size: 17pt;
-}
-
-p {
-  width: 250px;
-  height: 100px;
+  padding-bottom: 10px;
 }
 
 ul {
@@ -118,19 +114,13 @@ nav {
 .kontakt {
   padding: 20px 20px;
   background: var(--highlight);
-  height: 100px;
+  height: 120px;
   width: 100%;
-}
-
-.social {
-  padding: 20px 20px;
-  background: var(--highlight);
-  height: 100px;
-  width: 100%;
+  color: var(--tertiary);
 }
 
 .kontakt h2 {
-  color: #bdc7c9;
+  color: var(--tertiary);
 }
 
 .social {
@@ -140,8 +130,20 @@ nav {
   width: 100%;
 }
 
-.container {
+.social h2 {
+  color: var(--tertiary);
+}
+
+.logo {
+  width: 20px;
+  height: auto;
+  text-decoration: none;
+}
+
+.social-box {
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  color: var(--tertiary);
 }
 
 dt {
@@ -158,4 +160,11 @@ dl.grid {
 }
 .grid dd {
   width: calc(100% - 120px);
+}
+
+.bio {
+  display: grid;
+  width: 300px;
+  height: auto;
+  text-align: justify;
 }
