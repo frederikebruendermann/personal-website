@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 :root {
@@ -19,21 +21,40 @@ body {
   color: var(--quarternary);
   font-size: 15px;
   line-height: 1.2;
-  margin: 0 15%;
+  margin: 0;
 }
 
 header {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  gap: 15px;
+  padding-left: 20px;
   display: grid;
-  gap: 0px;
-  place-items: center;
-  margin: 0px;
   background-color: var(--highlight);
+  grid-template-columns: 2fr 2fr;
+}
+
+header h1 {
+  display: flex;
+  width: 100%;
+  align-self: center;
+  font-size: 17px;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  align-self: center;
+  justify-content: space-between;
+  padding-right: 20px;
 }
 
 main {
   display: grid;
   gap: 30px;
   place-items: center;
+  flex-direction: column;
 }
 
 a {
@@ -92,5 +113,13 @@ nav {
 }
 
 .interessen {
-  margin-bottom: 0px;
+  margin: 50px;
+}
+
+.kontakt {
+  color: var(--tertiary);
+}
+
+.skills {
+  margin-top: 20px‚;
 }
