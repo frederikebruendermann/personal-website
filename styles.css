@@ -17,7 +17,7 @@ html {
 }
 
 body {
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: var(--quarternary);
   font-size: 15px;
   margin: 0 10%;
@@ -31,7 +31,6 @@ header {
   padding-left: 20px;
   display: grid;
   background-color: var(--highlight);
-  grid-template-columns: 2fr 2fr;
 }
 
 header h1 {
@@ -57,11 +56,12 @@ main {
 }
 
 footer {
-  padding: 10px 20px;
+  padding: 30px 20px 10px 20px;
   background: var(--highlight);
   color: var(--tertiary);
-  height: 30px;
+  height: 70px;
   width: 100%;
+  font-size: 10px;
 }
 
 a {
@@ -90,7 +90,8 @@ h2 {
 }
 
 ul {
-  padding: 10px;
+  list-style-type: square;
+  list-style-position: inside;
 }
 
 img {
@@ -124,26 +125,30 @@ nav {
 }
 
 .social {
-  padding: 20px 20px;
+  display: flex;
+  justify-content: center;
+  padding: 10px 10px 10px 10px;
   background: var(--highlight);
-  height: 100px;
-  width: 100%;
+  height: 100%;
+  width: 300px;
 }
 
 .social h2 {
   color: var(--tertiary);
+  text-align: center;
+  padding: 0px;
+  text-align: start;
+}
+
+.social a {
+  margin: 0px;
+  color: var(--highlight);
 }
 
 .logo {
-  width: 20px;
+  width: 30px;
   height: auto;
   text-decoration: none;
-}
-
-.social-box {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  color: var(--tertiary);
 }
 
 dt {
@@ -167,4 +172,15 @@ dl.grid {
   width: 300px;
   height: auto;
   text-align: justify;
+}
+
+.p {
+  font-size: 10px;
+}
+
+.interessen {
+  display: grid;
+  width: 300px;
+  height: 100%;
+  padding-bottom: 20px;
 }
