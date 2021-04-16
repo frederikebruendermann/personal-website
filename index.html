@@ -12,24 +12,21 @@
 
   <body>
     <header>
-      <h1>Willkommen auf meiner Website</h1>
+      <h1>Frederike Bründermann</h1>
       <nav>
         <a href="#kontakt">Kontakt</a>
         <a href="#bio">Biografie</a>
-      </nav>
+       </nav>
     </header>
 
     <main>
-      <section id="foto">
-        <h2>That´s me</h2>
-        <figure>
-          <img src="./images/frederikemeer.jpg" alt="" width="70%" />
-          <figcaption>
-            Mein Hund Kurt und ich an der Nordsee, Sommer 2019
-          </figcaption>
-        </figure>
-      </section>
-
+      <picture>
+            <source media="(max-width: 599px)" srcset="/images/frederikeamSchreibtisch.jpg"/>
+            <source media="(min-width 600px)" srcset="/images/frederikemeer.jpg"/>
+            <img src="/images/frederikemeer.jpg"/>
+      </picture>
+     
+      <div>
       <section id="interessen">
         <h2>Interessen</h2>
         <ul>
@@ -38,6 +35,9 @@
           <li>Camping & VanLife</li>
           <li>Family & Friends</li>
         </ul>
+      </section>
+
+        <section id="skills">
         <h2>Skills</h2>
         <ul>
           <li>Social Media Management</li>
@@ -46,31 +46,28 @@
           <li>Performance Marketing</li>
         </ul>
       </section>
-
+    </div>
+    
       <section id="kontakt">
         <h2>Kontakt</h2>
 
-        Mail:
-        <a href="mailto:frederike@bruendermann.de">frederike@bruendermann.de</a>
+        <a href="mailto:frederike@bruendermann.de">✉️ frederike@bruendermann.de</a>
         <br />
-        Phone: <a href="tel:+491786353411">+49 178 6353411</a>
+        <a href="tel:+491786353411">📞 +49 178 6353411</a>
       </section>
 
       <section id="links">
         <h2>Let´s connect!</h2>
-        <a href="https://www.linkedin.com/in/frederikebründermann/">@LinkedIn</a
+        <a href="https://www.linkedin.com/in/frederikebründermann/" rel="noopener noreferrer">@LinkedIn</a
         ><br />
-        <a href="https://github.com/frederikebruendermann">@GitHub</a><br />
-        <a href="https://codepen.io/FrederikeB">@CodePen</a>
+        <a href="https://github.com/frederikebruendermann" rel="noopener noreferrer">@GitHub</a><br />
+        <a href="https://codepen.io/FrederikeB" rel="noopener noreferrer">@CodePen</a>
       </section>
 
       <section id="bio">
         <h2>Biografie</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Id beatae
-          dolor, sapiente fugiat iste distinctio tempore quo modi odio
-          reprehenderit rerum culpa quaerat repellat consequuntur autem sed
-          impedit tenetur unde?
+          Nach meinem Marketing- & Medienmanagment Studium in der wunderschönen Stadt Hamburg habe ich in verschieden Agenturen und Positionen die Welt des On- und Offline Marketings kennengelernt.  
         </p>
       </section>
 

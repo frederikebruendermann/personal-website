@@ -1,15 +1,90 @@
 * {
   box-sizing: border-box;
 }
+
+:root {
+  --highlight: #ead3cb;
+  --primary: #845460;
+  --tertiary: #bdc7c9;
+  --quarternary: #2b4f60;
+}
+
+html {
+  width: 100%;
+  background-color: var(--primary);
+}
+
 body {
   font-family: 'Work Sans', sans-serif;
-  font-color: green;
-  background-color: antiquewhite;
-  font-size: 120%;
-  line-height: 1, 4;
+  color: var(--highlight);
+  font-size: 15px;
+  line-height: 1.2;
+  margin: 0 15%;
 }
+
+header {
+  display: grid;
+  gap: 20px;
+  place-items: center;
+  margin: 0px;
+}
+
+main {
+  display: grid;
+  gap: 30px;
+  place-items: center;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 2px solid;
+  color: var(--tertiary);
+}
+
 input,
 button,
 textarea {
   font-size: inherit;
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: 20pt;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-weight: bolder;
+  font-size: 17pt;
+}
+
+p {
+  width: 250px;
+  height: 100px;
+}
+
+ul {
+  padding: 0px;
+}
+
+img {
+  height: auto;
+  margin: 15px 0;
+  width: 100%;
+}
+
+.button {
+  background: var(--quarternary);
+  color: var(--highlight);
+  border-bottom: none;
+  padding: 3px;
+  border-radius: 4px;
+}
+
+.bio {
+  text-align: justify;
+}
+
+.interessen {
+  margin-bottom: 0px;
 }
