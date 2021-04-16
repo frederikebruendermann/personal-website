@@ -20,7 +20,6 @@ body {
   font-family: 'Work Sans', sans-serif;
   color: var(--quarternary);
   font-size: 15px;
-  line-height: 1.2;
   margin: 0;
 }
 
@@ -57,6 +56,14 @@ main {
   flex-direction: column;
 }
 
+footer {
+  padding: 10px 20px;
+  background: var(--highlight);
+  color: var(--tertiary);
+  height: 30px;
+  width: 100%;
+}
+
 a {
   text-decoration: none;
   border-bottom: 2px solid;
@@ -87,12 +94,12 @@ p {
 }
 
 ul {
-  padding: 0px;
+  padding: 10px;
 }
 
 img {
   height: auto;
-  margin: 15px 0;
+  margin: 5px 0;
   width: 100%;
 }
 
@@ -108,18 +115,47 @@ nav {
   border-radius: 4px;
 }
 
-.bio {
-  text-align: justify;
-}
-
-.interessen {
-  margin: 50px;
-}
-
 .kontakt {
-  color: var(--tertiary);
+  padding: 20px 20px;
+  background: var(--highlight);
+  height: 100px;
+  width: 100%;
 }
 
-.skills {
-  margin-top: 20px‚;
+.social {
+  padding: 20px 20px;
+  background: var(--highlight);
+  height: 100px;
+  width: 100%;
+}
+
+.kontakt h2 {
+  color: #bdc7c9;
+}
+
+.social {
+  padding: 20px 20px;
+  background: var(--highlight);
+  height: 100px;
+  width: 100%;
+}
+
+.container {
+  display: grid;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dl.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid dt {
+  width: 120px;
+}
+.grid dd {
+  width: calc(100% - 120px);
 }
