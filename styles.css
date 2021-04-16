@@ -3,8 +3,8 @@
 }
 
 :root {
-  --highlight: #ead3cb;
-  --primary: #845460;
+  --primary: #ead3cb;
+  --highlight: #845460;
   --tertiary: #bdc7c9;
   --quarternary: #2b4f60;
 }
@@ -16,7 +16,7 @@ html {
 
 body {
   font-family: 'Work Sans', sans-serif;
-  color: var(--highlight);
+  color: var(--quarternary);
   font-size: 15px;
   line-height: 1.2;
   margin: 0 15%;
@@ -24,9 +24,10 @@ body {
 
 header {
   display: grid;
-  gap: 20px;
+  gap: 0px;
   place-items: center;
   margin: 0px;
+  background-color: var(--highlight);
 }
 
 main {
@@ -51,6 +52,7 @@ h1 {
   font-weight: bolder;
   font-size: 20pt;
   margin-bottom: 0;
+  color: var(--tertiary);
 }
 
 h2 {
@@ -73,9 +75,13 @@ img {
   width: 100%;
 }
 
+nav {
+  color: var(--tertiary);
+}
+
 .button {
   background: var(--quarternary);
-  color: var(--highlight);
+  color: var(--quarternary);
   border-bottom: none;
   padding: 3px;
   border-radius: 4px;
