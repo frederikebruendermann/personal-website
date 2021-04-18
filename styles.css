@@ -47,6 +47,9 @@ nav {
   align-self: center;
   justify-content: space-between;
   padding: 0px 20px 15px 20px;
+  border-bottom: 2px solid;
+  color: var(--tertiary);
+  text-decoration: solid;
 }
 
 main {
@@ -67,8 +70,6 @@ footer {
 }
 
 a {
-  text-decoration: none;
-  border-bottom: 2px solid;
   color: var(--tertiary);
 }
 
@@ -95,10 +96,6 @@ img {
   width: 100%;
 }
 
-nav {
-  color: var(--tertiary);
-}
-
 .kontakt {
   padding: 20px 20px;
   background: var(--highlight);
@@ -114,6 +111,10 @@ nav {
 .kontakt h2 {
   color: var(--tertiary);
   padding-top: 10px;
+}
+
+.kontakt a {
+  text-decoration: none;
 }
 
 .social {
