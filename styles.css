@@ -1,13 +1,12 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
 }
 
 :root {
   --primary: #ead3cb;
   --highlight: #845460;
-  --tertiary: #bdc7c9;
+  --tertiary: #ead3cb;
   --quarternary: #2b4f60;
 }
 
@@ -27,8 +26,8 @@ header {
   height: 80px;
   width: 100%;
   display: flex;
-  gap: 15px;
-  padding-left: 20px;
+  gap: 5px;
+  padding-left: 0px;
   display: grid;
   background-color: var(--highlight);
 }
@@ -36,8 +35,10 @@ header {
 header h1 {
   display: flex;
   width: 100%;
-  align-self: center;
-  font-size: 17px;
+  justify-content: center;
+  font-size: 20px;
+  color: var(--tertiary);
+  padding-top: 10px;
 }
 
 nav {
@@ -45,7 +46,7 @@ nav {
   width: 100%;
   align-self: center;
   justify-content: space-between;
-  padding-right: 20px;
+  padding: 0px 20px 15px 20px;
 }
 
 main {
@@ -62,6 +63,7 @@ footer {
   height: 70px;
   width: 100%;
   font-size: 10px;
+  text-align: center;
 }
 
 a {
@@ -74,13 +76,6 @@ input,
 button,
 textarea {
   font-size: inherit;
-}
-
-h1 {
-  font-weight: bolder;
-  font-size: 20pt;
-  margin-bottom: 0;
-  color: var(--tertiary);
 }
 
 h2 {
@@ -104,24 +99,21 @@ nav {
   color: var(--tertiary);
 }
 
-.button {
-  background: var(--quarternary);
-  color: var(--quarternary);
-  border-bottom: none;
-  padding: 3px;
-  border-radius: 4px;
-}
-
 .kontakt {
   padding: 20px 20px;
   background: var(--highlight);
   height: 120px;
   width: 100%;
   color: var(--tertiary);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .kontakt h2 {
   color: var(--tertiary);
+  padding-top: 10px;
 }
 
 .social {
@@ -155,16 +147,27 @@ dt {
   font-weight: bold;
   width: 300px;
   height: auto;
+  display: flex;
+  justify-content: center;
 }
 
 dd {
   width: 300px;
   height: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .dl {
   width: 300px;
   height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.cv h2 {
+  display: flex;
+  justify-content: center;
 }
 
 .bio {
