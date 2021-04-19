@@ -1,23 +1,8 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-}
+@import './_base.css';
 
 :root {
   --primary: #ead3cb;
   --highlight: #845460;
-}
-
-html {
-  width: 100%;
-  background-color: var(--primary);
-}
-
-body {
-  font-family: 'Poppins', sans-serif;
-  font-size: 15px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 header {
@@ -47,13 +32,6 @@ nav {
   border-bottom: 2px solid;
   color: var(--primary);
   text-decoration: solid;
-}
-
-main {
-  display: grid;
-  gap: 30px;
-  place-items: center;
-  flex-direction: column;
 }
 
 footer {
