@@ -21,7 +21,7 @@ body {
 }
 
 header {
-  height: 80px;
+  height: auto;
   width: 100%;
   display: flex;
   gap: 5px;
@@ -97,7 +97,7 @@ img {
 #kontakt {
   padding: 20px 20px;
   background: var(--highlight);
-  height: 120px;
+  height: auto;
   width: 100%;
   color: var(--primary);
   text-align: center;
