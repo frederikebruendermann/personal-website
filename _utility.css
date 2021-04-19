@@ -1,0 +1,26 @@
+.main__social h2 {
+  color: var(--primary);
+  text-align: center;
+  padding: 0px;
+  text-align: start;
+}
+
+.main__social--logo-small {
+  width: 30px;
+  height: auto;
+  text-decoration: none;
+}
+
+.main__cv--h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.ul_square {
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+.details__bio--f-10 {
+  font-size: 15px;
+}
