@@ -1,1 +1,4 @@
-:root ;
+:root {
+  --primary: #ead3cb;
+  --highlight: #845460;
+}

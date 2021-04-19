@@ -1,0 +1,14 @@
+.cv__dl--dt {
+  font-weight: bold;
+  width: 300px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.cv__dl--dd {
+  width: 300px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}

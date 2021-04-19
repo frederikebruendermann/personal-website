@@ -1,0 +1,38 @@
+@media (min-width: 600px) and (orientation: landscape) {
+    .details__bio {
+      display: grid;
+      width: 600px;
+      height: auto;
+      text-align: justify;
+    }
+    .main__social {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      padding: 10px 10px 10px 10px;
+      background: var(--highlight);
+      height: 100%;
+      width: 600px;
+    }
+    .portrait {
+      height: auto;
+      margin: 5px 0;
+      width: 600px;
+    }
+    .main__details {
+      display: flex;
+      justify-content: stretch;
+      width: 600px;
+      flex-direction: row;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .main__social h2 {
+      color: var(--primary);
+      text-align: center;
+      padding: 0px;
+      text-align: start;
+      font-size: 17px;
+    }

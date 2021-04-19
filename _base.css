@@ -21,3 +21,7 @@ main {
   place-items: center;
   flex-direction: column;
 }
+
+a {
+  color: var(--tertiary);
+}
