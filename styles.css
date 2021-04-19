@@ -5,7 +5,7 @@
   --highlight: #845460;
 }
 
-header {
+.page__header {
   height: auto;
   width: 100%;
   display: flex;
@@ -15,7 +15,7 @@ header {
   background-color: var(--highlight);
 }
 
-header h1 {
+.page__header h1 {
   display: flex;
   width: 100%;
   justify-content: center;
@@ -24,7 +24,7 @@ header h1 {
   padding-top: 10px;
 }
 
-nav {
+.page__header-nav {
   display: flex;
   width: 100%;
   justify-content: space-around;
@@ -72,7 +72,7 @@ img {
   max-height: 600px;
 }
 
-#kontakt {
+.footer__kontakt {
   padding: 20px 20px;
   background: var(--highlight);
   height: auto;
@@ -84,16 +84,16 @@ img {
   flex-direction: column;
 }
 
-#kontakt h2 {
+.footer__kontakt h2 {
   color: var(--primary);
   padding-top: 10px;
 }
 
-#kontakt a {
+footer__kontakt a {
   text-decoration: none;
 }
 
-#social {
+.main__social {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -103,19 +103,19 @@ img {
   width: 300px;
 }
 
-#social h2 {
+.main__social h2 {
   color: var(--primary);
   text-align: center;
   padding: 0px;
   text-align: start;
 }
 
-#social a {
+.main__social {
   margin: 0px;
   color: var(--highlight);
 }
 
-.logo {
+.main__social--logo {
   width: 30px;
   height: auto;
   text-decoration: none;
@@ -136,19 +136,12 @@ dd {
   justify-content: center;
 }
 
-.dl {
-  width: 300px;
-  height: auto;
+.main__cv h2 {
   display: flex;
   justify-content: center;
 }
 
-#cv h2 {
-  display: flex;
-  justify-content: center;
-}
-
-#bio {
+.details__bio {
   display: grid;
   width: 300px;
   height: auto;
@@ -159,7 +152,7 @@ dd {
   font-size: 10px;
 }
 
-#interessen {
+.details__interessen {
   display: grid;
   width: 300px;
   height: 100%;
@@ -167,13 +160,13 @@ dd {
 }
 
 @media (min-width: 600px) and (orientation: landscape) {
-  #bio {
+  .details__bio {
     display: grid;
     width: 600px;
     height: auto;
     text-align: justify;
   }
-  #social {
+  .main__social {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -183,15 +176,25 @@ dd {
     height: 100%;
     width: 600px;
   }
-  img {
+  .portrait {
     height: auto;
     margin: 5px 0;
     width: 600px;
   }
-  div {
+  .main__details {
     display: flex;
     justify-content: stretch;
     width: 600px;
     flex-direction: row;
+  }
+}
+
+@media (max-width: 600px) {
+  .main__social h2 {
+    color: var(--primary);
+    text-align: center;
+    padding: 0px;
+    text-align: start;
+    font-size: 17px;
   }
 }
